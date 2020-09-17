@@ -1,6 +1,23 @@
 
 1. git fetch --all
 
-remote ի բոլոր branch երը fetch  է անում
+remote ի բոլոր branch երը fetch  է անում:
+
+2. git log filtering
+
+1. ըստ պարունակության
+
+git log -S commit1_commit2
+
+2.ըստ commit ի message ի
+
+git log --grep "message"
+
+3․ըստ հեղինակի կարելի է օգտագործել անուն email և այլն
+git log --author "bla@gmail.com"
+
+4.ըստ ամսաթվի, ունի 2 տարվերակ նշված օրվանից առաջ --before և հետո --after
+git log --before '2020-02-02'
+
 
 
